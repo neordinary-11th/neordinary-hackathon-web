@@ -16,3 +16,4 @@ android/local.properties
 ios/App/App/public
 ios/DerivedData
 ios/App/build
+.vercel
