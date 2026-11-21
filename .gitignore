@@ -1,0 +1,18 @@
+node_modules
+dist
+.DS_Store
+*.local
+.env
+.env.*
+!.env.example
+!.env.development
+
+# Capacitor 가 빌드할 때 채우는 폴더
+android/app/src/main/assets/public
+android/.gradle
+android/build
+android/app/build
+android/local.properties
+ios/App/App/public
+ios/DerivedData
+ios/App/build
