@@ -57,6 +57,14 @@ android, ios                Capacitor 앱 프로젝트
 - 앱에서는 `https` 서버만 호출됩니다. 배포 빌드 전에 `.env.production` 에 `VITE_API_BASE_URL` 을 넣습니다.
 - 앱 변환은 마감 직전에 처음 하지 말고, 첫 화면이 나오면 바로 한 번 돌려 봅니다.
 
+## 웹 배포
+
+미리보기 주소는 https://neordinary-hackathon-web.vercel.app 입니다. PM과 디자이너가 진행 상황을 볼 때 씁니다.
+
+- `main` 에 합쳐지면 Vercel이 자동으로 배포합니다. PR에는 PR별 미리보기 주소가 붙습니다.
+- 서버 주소는 Vercel 프로젝트의 환경변수 `VITE_API_BASE_URL` 로 넣습니다. 값을 바꾼 뒤에는 다시 배포해야 반영됩니다.
+- 앱 빌드는 Vercel과 별개입니다. 앱에 들어가는 서버 주소는 로컬의 `.env.production` 에서 읽습니다.
+
 ## 웹 파트 심사 체크리스트
 
 안내 페이지의 심사 기준을 옮긴 것입니다. 기본 100점에 가산점 최대 10점입니다.
