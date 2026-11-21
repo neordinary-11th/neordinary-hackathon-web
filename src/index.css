@@ -1,4 +1,5 @@
 @import 'tailwindcss';
+@import 'pretendard/dist/web/variable/pretendardvariable-dynamic-subset.css';
 
 /* 디자인 시스템이 나오면 여기 값만 바꾼다. bg-primary, text-ink 처럼 클래스로 쓴다. */
 @theme {
@@ -9,7 +10,8 @@
   --color-line: #e5e7eb;
   --color-surface: #f9fafb;
   --color-danger: #dc2626;
-  --font-sans: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  --font-sans:
+    'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
 }
 
 html,
