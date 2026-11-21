@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">NEORDINARY</string>
+    <string name="title_activity_main">NEORDINARY</string>
+    <string name="package_name">com.neordinary.hackathon</string>
+    <string name="custom_url_scheme">com.neordinary.hackathon</string>
+</resources>
